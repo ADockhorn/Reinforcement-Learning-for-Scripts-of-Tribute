@@ -54,7 +54,8 @@ Note: some files may still include a "todo:" note. We have added those to the pu
         - The game will start and the bots will play against each other n times within t threads
         - more threads may improve performance, but I wouldn't use it for your RL-based bot to avoid conflicts
 - in ExternalAIAdapapter.cs update the following method accordingly:
-        public override Move Play(GameState gameState, List<Move> possibleMoves, TimeSpan remainingTime)
+  ```c#
+  public override Move Play(GameState gameState, List<Move> possibleMoves, TimeSpan remainingTime)
     {
 
         var obj = gameState.SerializeGameState();
@@ -75,5 +76,6 @@ Note: some files may still include a "todo:" note. We have added those to the pu
         return possibleMoves[int.Parse(botOutput)];
         //return MapStringToMove(botOutput, gameState, possibleMoves);
     }
+  ```
 - Note: this breaks compatibility with the example-bot.py, but it is necessary to make the bots work with later to be implemented RL-based bots and we are going to fix this in a few seconds
 
