@@ -6,13 +6,4 @@ authors:
 - family-names: "Dockhorn"
   given-names: "Alexander"
 title: "Training a Reinforcement Learning Agent for Tales of Tribute"
-preferred-citation:
-  type: inproceedings
-  authors:
-  - family-names: "Lashmet"
-    given-names: "Sebastian"
-  - family-names: "Dockhorn"
-    given-names: "Alexander"
-  booktitle: "2025 IEEE Conference on Games (CoG)"
-  pages: "1-4"
-  year: 2025
+url: "https://github.com/ADockhorn/Reinforcement-Learning-for-Scripts-of-Tribute"
