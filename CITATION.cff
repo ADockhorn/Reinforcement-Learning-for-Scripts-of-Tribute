@@ -1,19 +1,49 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+title: >-
+  Training a Reinforcement Learning Agent for Tales of
+  Tribute
+message: 'If you use this software, please cite it as below.'
+type: software
 authors:
-- family-names: "Lashmet"
-  given-names: "Sebastian"
-- family-names: "Dockhorn"
-  given-names: "Alexander"
-title: "Training a Reinforcement Learning Agent for Tales of Tribute"
-url: "https://github.com/ADockhorn/Reinforcement-Learning-for-Scripts-of-Tribute"
+  - given-names: Sebastian
+    family-names: Lashmet
+  - given-names: Alexander
+    family-names: Dockhorn
+repository-code: >-
+  https://github.com/ADockhorn/Reinforcement-Learning-for-Scripts-of-Tribute
+abstract: >-
+  Tales of Tribute is a strategic deck-building card game
+  that presents unique challenges for artificial
+  intelligence due to its complex action space, hidden
+  information, and long-term planning requirements. In this
+  work, we propose a reinforcement learning agent that
+  learns to play Tales of Tribute without relying on
+  handcrafted heuristics. Our approach introduces a
+  generalizable game state representation and a scalable
+  action evaluation mechanism based on preference vectors.
+  We train our agent using Proximal Policy Optimization
+  within the Scripts of Tribute framework and demonstrate
+  competitive performance against established search-based
+  agents, including Monte Carlo Tree Search. The results
+  validate the viability of reinforcement learning in Tales
+  of Tribute and highlight the potential of preference-based
+  action evaluation in domains with large and variable
+  action spaces. Further experiments will be required to
+  test its viability in other card games.
+license: MIT
+version: '1.0'
+date-released: '2025-07-09'
 preferred-citation:
-  type: inproceedings
+  type: conference-paper
+  title: Training a Reinforcement Learning Agent for Tales of Tribute
   authors:
   - family-names: "Lashmet"
     given-names: "Sebastian"
   - family-names: "Dockhorn"
     given-names: "Alexander"
-  booktitle: "2025 IEEE Conference on Games (CoG)"
-  pages: "1-4"
+  journal: "2025 IEEE Conference on Games (CoG)"
+  pages: 1-4
   year: 2025
