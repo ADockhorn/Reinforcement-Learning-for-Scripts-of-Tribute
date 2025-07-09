@@ -2,11 +2,12 @@
 
 This is the corresponding Github repository of our paper **Training a Reinforcement Learning Agent for Tales of Tribute**.
 We hereby provide our implementation of a reinforcement learning routine for the Tales of Tribute card game simulator.
-For simplicity we combined our ontributions with the content of the original Scripts of Tribute repository at the time of the upload.
+For simplicity we combined our ontributions with the content of the original [Scripts of Tribute repository](https://github.com/ScriptsOfTribute) at the time of the upload.
 For this to work, we needed to slightly modify the original framework (see the section on Initial setup and modifications).
 
 # Reference to the Corresponding Paper
 
+```bibtex
 @inproceedings { Lashmet25,
   author = {Sebastian Lashmet and Alexander Dockhorn},
   title = {Training a Reinforcement Learning Agent for Tales of Tribute},
@@ -14,7 +15,7 @@ For this to work, we needed to slightly modify the original framework (see the s
   year = {2025},
   pages = {1-4}
 }
-
+```
 
 # Included Files
 
